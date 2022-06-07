@@ -1,0 +1,124 @@
+[
+    {
+        "label": "SOFTWARE DELIVERY EXCELLENCE",
+        "type": "person",
+        "styleClass": "p-person",
+        "expanded": true,
+        "data": {
+            "name": "Aziza Ben Gozzia / Mohamed Ghammam",
+            "avatar": "walter.jpg"
+        },
+        "children": [
+            {
+                "label": "Software Craftmanship Mindset",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": true,
+                "data": {
+                    "name": "Integrate best practices, standard coding, code quality as a part of the developer's job to implement software     (opposes the logic of industrialization) "
+                },
+                "children": [
+                    {
+                        "label": "Mohamed Beltif",
+                        "styleClass": "department-cfo"
+                    },
+                    {
+                        "label": "Tiago Teixeira",
+                        "styleClass": "department-cfo"
+                    },
+                    {
+                        "label": "António Pereira",
+                        "styleClass": "department-cfo"
+                    }
+                ]
+            },
+            {
+                "label": "Automated Test",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": true,
+                "data": {
+                    "name": "Detect automaticaly regression in non prod env.",
+                    "avatar": "mike.jpg"
+                },
+                "children": [
+                    {
+                        "label": "Kevin Douglas",
+                        "styleClass": "department-coo"
+                    },
+                    {
+                        "label": "Kais Dhifallah",
+                        "styleClass": "department-coo"
+                    },
+                    {
+                        "label": "Suman Kumar",
+                        "styleClass": "department-coo"
+                    }
+                ]
+            },
+            {
+                "label": "Devops & Non Prod Environments",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": true,
+                "data": {
+                    "name": "Increase deployment STP",
+                    "avatar": "jesse.jpg"
+                },
+                "children": [
+                    {
+                        "label": "Vianney Boucaud",
+                        "styleClass": "department-cto",
+                        "expanded": true
+                    },
+                    {
+                        "label": "Daniel Chaffiol",
+                        "styleClass": "department-cto",
+                        "expanded": true
+                    }
+                ]
+            },
+            {
+                "label": "IT Delivery Process & Governance",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": true,
+                "data": {
+                    "name": "Give more reliability & autonomy for project & team mngt.",
+                    "avatar": "jesse.jpg"
+                },
+                "children": [
+                    {
+                        "label": "Adrien Boulogne",
+                        "styleClass": "department-cto"
+                    },
+                    {
+                        "label": "Pedro Direito",
+                        "styleClass": "department-cto"
+                    }
+                ]
+            },
+            {
+                "label": "Faster Knowledge & Continuous Learning",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": true,
+                "data": {
+                    "name": "Enlarge expertise to not be “just” delivery team",
+                    "avatar": "jesse.jpg"
+                },
+                "children": [
+                    {
+                        "label": "José Carvalho",
+                        "styleClass": "department-cto"
+                    },
+                    {
+                        "label": "Firas Chikhrouhou",
+                        "styleClass": "department-cto"
+                    }
+                ]
+            }
+        ]
+    }
+    
+]
