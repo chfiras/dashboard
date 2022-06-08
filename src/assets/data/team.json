@@ -3,7 +3,7 @@
         "label": "SOFTWARE DELIVERY EXCELLENCE",
         "type": "person",
         "styleClass": "p-person",
-        "expanded": true,
+        "expanded": false,
         "data": {
             "name": "Aziza Ben Gozzia / Mohamed Ghammam",
             "avatar": "walter.jpg"
@@ -11,23 +11,16 @@
         "children": [
             {
                 "label": "Software Craftmanship Mindset",
+                "value": "P1",
                 "type": "person",
                 "styleClass": "p-person",
-                "expanded": true,
+                "expanded": false,
                 "data": {
-                    "name": "Integrate best practices, standard coding, code quality as a part of the developer's job to implement software     (opposes the logic of industrialization) "
+                    "name": "Best practices, standard coding, code quality"
                 },
                 "children": [
                     {
-                        "label": "Mohamed Beltif",
-                        "styleClass": "department-cfo"
-                    },
-                    {
-                        "label": "Tiago Teixeira",
-                        "styleClass": "department-cfo"
-                    },
-                    {
-                        "label": "António Pereira",
+                        "label": "Mohamed Beltif, Tiago Teixeira",
                         "styleClass": "department-cfo"
                     }
                 ]
@@ -35,44 +28,34 @@
             {
                 "label": "Automated Test",
                 "type": "person",
+                "value": "P2",
                 "styleClass": "p-person",
-                "expanded": true,
                 "data": {
                     "name": "Detect automaticaly regression in non prod env.",
                     "avatar": "mike.jpg"
                 },
+                "expanded" : false,
                 "children": [
                     {
-                        "label": "Kevin Douglas",
-                        "styleClass": "department-coo"
-                    },
-                    {
-                        "label": "Kais Dhifallah",
-                        "styleClass": "department-coo"
-                    },
-                    {
-                        "label": "Suman Kumar",
+                        "label": "Kevin Douglas, Kais Dhifallah, Suman Kumar",
                         "styleClass": "department-coo"
                     }
+                    
                 ]
             },
             {
                 "label": "Devops & Non Prod Environments",
                 "type": "person",
+                "value": "P3",
                 "styleClass": "p-person",
-                "expanded": true,
+                "expanded": false,
                 "data": {
                     "name": "Increase deployment STP",
                     "avatar": "jesse.jpg"
                 },
                 "children": [
                     {
-                        "label": "Vianney Boucaud",
-                        "styleClass": "department-cto",
-                        "expanded": true
-                    },
-                    {
-                        "label": "Daniel Chaffiol",
+                        "label": "Vianney Boucaud, Daniel Chaffiol",
                         "styleClass": "department-cto",
                         "expanded": true
                     }
@@ -81,19 +64,16 @@
             {
                 "label": "IT Delivery Process & Governance",
                 "type": "person",
+                "value": "P4",
                 "styleClass": "p-person",
-                "expanded": true,
+                "expanded": false,
                 "data": {
                     "name": "Give more reliability & autonomy for project & team mngt.",
                     "avatar": "jesse.jpg"
                 },
                 "children": [
                     {
-                        "label": "Adrien Boulogne",
-                        "styleClass": "department-cto"
-                    },
-                    {
-                        "label": "Pedro Direito",
+                        "label": "Adrien Boulogne, Pedro Direito",
                         "styleClass": "department-cto"
                     }
                 ]
@@ -101,19 +81,16 @@
             {
                 "label": "Faster Knowledge & Continuous Learning",
                 "type": "person",
+                "value": "P5",
                 "styleClass": "p-person",
-                "expanded": true,
+                "expanded": false,
                 "data": {
                     "name": "Enlarge expertise to not be “just” delivery team",
                     "avatar": "jesse.jpg"
                 },
                 "children": [
                     {
-                        "label": "José Carvalho",
-                        "styleClass": "department-cto"
-                    },
-                    {
-                        "label": "Firas Chikhrouhou",
+                        "label": "José Carvalho, Firas Chikhrouhou",
                         "styleClass": "department-cto"
                     }
                 ]

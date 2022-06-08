@@ -10,6 +10,7 @@ import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {ChartModule} from 'primeng/chart';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ChartModule} from 'primeng/chart';
     HttpClientModule,
     FormsModule,
     ProgressBarModule,
-    ChartModule
+    ChartModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

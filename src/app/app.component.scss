@@ -295,13 +295,17 @@ svg#clouds {
 }
 
 :host ::ng-deep .p-organizationchart {
-    .p-person {
+  .p-organizationchart-table {
+
+    min-width: 200px;
+}
+  .p-person {
         padding: 0;
         border: 0 none;
     }
 
     .node-header, .node-content {
-        padding: .5em .7rem;
+        padding: .5em .1rem;
     }
 
     .node-header {
@@ -321,6 +325,7 @@ svg#clouds {
     .department-cfo {
         background-color: #7247bc;
         color: #ffffff;
+        width: 200PX;
     }
 
     .department-coo {

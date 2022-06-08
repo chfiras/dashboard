@@ -37,9 +37,9 @@
 
   </div>
   <p-toast [style]="{marginTop: '80px'}"></p-toast>
-  <div class="">
+  <div class="row">
     <div class="col-10" style="margin-top:80px">
-      <p-organizationChart [value]="data" selectionMode="single" [(selection)]="selectedNode"
+      <p-organizationChart [value]="data" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]="false"
         (onNodeSelect)="onNodeSelect($event)" styleClass="company">
         <ng-template let-node pTemplate="person">
           <div class="node-header p-corner-top">{{node.label}}</div>
@@ -131,7 +131,9 @@
     </div>
   </div>
 </div>
-<div class="col-lg-8 offset-lg-1">
-  
-  <p-chart type="line" [data]="lineStylesData" [options]="options" ></p-chart>
+<div class="col-lg-8 offset-lg-2">
+  <p-card header="{{cardTitle}}"  *ngIf="dataByPillar">
+    <p-chart type="line" [data]="dataByPillar" [options]="dataConfigByPillar" ></p-chart>
+
+</p-card>
 </div>
