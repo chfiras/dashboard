@@ -125,7 +125,7 @@ svg.material-icons:not(:last-child) {
 }
 
 .card.highlight-card {
-  background-color: #1976d2;
+  background-color: #4F5556;
   color: white;
   font-weight: 600;
   border: none;
@@ -146,7 +146,7 @@ svg#rocket {
 }
 
 svg#rocket-smoke {
-  height: calc(100vh - 95px);
+  height: calc(100vh - 395px);
   position: absolute;
   top: 10px;
   right: 180px;
@@ -297,7 +297,7 @@ svg#clouds {
 :host ::ng-deep .p-organizationchart {
   .p-organizationchart-table {
 
-    min-width: 200px;
+    min-width: 300px;
 }
   .p-person {
         padding: 0;
@@ -305,7 +305,7 @@ svg#clouds {
     }
 
     .node-header, .node-content {
-        padding: .5em .1rem;
+        padding: 1em .8rem;
     }
 
     .node-header {
@@ -322,19 +322,37 @@ svg#clouds {
         border-radius: 50%;
     }
 
-    .department-cfo {
-        background-color: #7247bc;
+    .employee {
+        background-color: #3b3a3a;
         color: #ffffff;
         width: 200PX;
     }
+}
+:host ::ng-deep .p-message-custom {
+  background-color: #cfcfcf;
+  border: solid #000000;
+  border-width: 0 0 0 6px;
+  color: #2c1e30;
+}
+:host ::ng-deep .p-card-title {
+font-size: 16px;  
+  color: #2c1e30;
+}
 
-    .department-coo {
-        background-color: #a534b6;
-        color: #ffffff;
-    }
+:host ::ng-deep {
+  .p-toast-message-custom {
+      background-color: #ffffff;
+      border: solid #000000;
+      border-width: 0 0 0 6px;
+      color: #2c1e30;
+      .p-toast-icon-close {
+          color: #2c1e30;
+      }
+  }
+}
 
-    .department-cto {
-        background-color: #e9286f;
-        color: #ffffff;
-    }
+.gauge{
+  display: flex;
+  align-items: center;
+  width: 16%;
 }

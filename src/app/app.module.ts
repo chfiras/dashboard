@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {ChartModule} from 'primeng/chart';
 import {CardModule} from 'primeng/card';
+import { GaugeChartModule } from 'angular-gauge-chart'
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import {CardModule} from 'primeng/card';
     FormsModule,
     ProgressBarModule,
     ChartModule,
-    CardModule
+    CardModule,
+    GaugeChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-{
+[{
     "title": {
       "display": true,
       "text": "My Title",
@@ -15,7 +15,7 @@
             "type": "point",
             "radius": 5,
             "backgroundColor": "transparent",
-            "borderColor": "red",
+            "borderColor": "#B0091B",
             "borderWidth": 5,
             "pointStyle": "circle",
             "xValue": 8,
@@ -25,24 +25,24 @@
             "type": "label",
             "borderRadius": 6,
             "borderWidth": 1,
-            "content": ["Target value"],
+            "content": ["Target value: 0"],
             "position": {
-              "x": "center",
+              "x": "start",
               "y": "end"
             },
-            "xValue": 8,
-            "yValue": 3
+            "xValue": 7.8,
+            "yValue": 1
           },
           "annotation1" : {
             "type": "line",
-            "borderColor": "green",
+            "borderColor": "#4F5556",
             "borderDash": [6, 6],
             "borderWidth": 3,
             "label": {
               "enabled": true,
-              "backgroundColor": "lightGreen",
+              "backgroundColor": "light#4F5556",
               "borderRadius": 0,
-              "color": "green",
+              "color": "white",
               "content": "Project timeline"
             },
             "arrowHeads": {
@@ -50,7 +50,86 @@
                 "enabled": true,
                 "fill": true,
                 "borderDash": [],
-                "borderColor": "green"
+                "borderColor": "#4F5556"
+              }
+            },
+            "xMax": 8,
+            "xMin": 0,
+            "xScaleID": "x",
+            "yMax": 20,
+            "yMin": 20,
+            "yScaleID": "y"
+          },
+        
+          "annotation3" : {
+            "type": "line",
+            "borderColor": "#4F5556",
+            "borderDash": [6, 6],
+            "borderWidth": 1,
+            "xMax": 8,
+            "xMin": 8,
+            "xScaleID": "x",
+            "yMax": 0,
+            "yMin": 22,
+            "yScaleID": "y"
+          }        
+          
+        }
+      }
+    }
+  },{
+    "title": {
+      "display": true,
+      "text": "My Title",
+      "fontSize": 16
+  },
+  "legend": {
+      "position": "bottom"
+  },
+    "plugins": {
+      "autocolors": false,
+      "annotation": {
+        "annotations": {
+          "point1": {
+            "type": "point",
+            "radius": 5,
+            "backgroundColor": "transparent",
+            "borderColor": "#B0091B",
+            "borderWidth": 5,
+            "pointStyle": "circle",
+            "xValue": 8,
+            "yValue": 100
+          },
+          "point2" :         {
+            "type": "label",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "content": ["Target value: 100%"],
+            "position": {
+              "x": "end",
+              "y": "end"
+            },
+            "xValue": 7.8,
+            "yValue": 90
+          },
+          "annotation1" : {
+            "type": "line",
+            "borderColor": "#4F5556",
+            "borderDash": [6, 6],
+            "borderWidth": 3,
+            "label": {
+              "enabled": true,
+              "backgroundColor": "light#4F5556",
+              "borderRadius": 0,
+              "color": "white",
+              "content": "Project timeline"
+            },
+            "arrowHeads": {
+              "end": {
+                "enabled": true,
+                "fill": true,
+                "borderDash": [],
+                "borderColor": "#4F5556"
               }
             },
             "xMax": 8,
@@ -63,7 +142,7 @@
         
           "annotation3" : {
             "type": "line",
-            "borderColor": "green",
+            "borderColor": "#4F5556",
             "borderDash": [6, 6],
             "borderWidth": 1,
             "xMax": 8,
@@ -77,4 +156,4 @@
         }
       }
     }
-  }
+  }]

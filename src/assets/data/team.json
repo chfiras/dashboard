@@ -2,11 +2,13 @@
     {
         "label": "SOFTWARE DELIVERY EXCELLENCE",
         "type": "person",
+        "value": "P0",
         "styleClass": "p-person",
-        "expanded": false,
+        "expanded": true,
         "data": {
-            "name": "Aziza Ben Gozzia / Mohamed Ghammam",
-            "avatar": "walter.jpg"
+            "needleValue": 15,
+            "centralLabel":"15%"
+
         },
         "children": [
             {
@@ -16,12 +18,13 @@
                 "styleClass": "p-person",
                 "expanded": false,
                 "data": {
-                    "name": "Best practices, standard coding, code quality"
+                    "needleValue": 15,
+                    "centralLabel":"15%"
                 },
                 "children": [
                     {
                         "label": "Mohamed Beltif, Tiago Teixeira",
-                        "styleClass": "department-cfo"
+                        "styleClass": "employee"
                     }
                 ]
             },
@@ -31,14 +34,15 @@
                 "value": "P2",
                 "styleClass": "p-person",
                 "data": {
-                    "name": "Detect automaticaly regression in non prod env.",
-                    "avatar": "mike.jpg"
+                    "needleValue": 10,
+                    "centralLabel":"10%"
+
                 },
                 "expanded" : false,
                 "children": [
                     {
                         "label": "Kevin Douglas, Kais Dhifallah, Suman Kumar",
-                        "styleClass": "department-coo"
+                        "styleClass": "employee"
                     }
                     
                 ]
@@ -50,13 +54,15 @@
                 "styleClass": "p-person",
                 "expanded": false,
                 "data": {
-                    "name": "Increase deployment STP",
-                    "avatar": "jesse.jpg"
+                    "needleValue": 5,
+                    "centralLabel":"5%"
+
+
                 },
                 "children": [
                     {
                         "label": "Vianney Boucaud, Daniel Chaffiol",
-                        "styleClass": "department-cto",
+                        "styleClass": "employee",
                         "expanded": true
                     }
                 ]
@@ -68,13 +74,14 @@
                 "styleClass": "p-person",
                 "expanded": false,
                 "data": {
-                    "name": "Give more reliability & autonomy for project & team mngt.",
-                    "avatar": "jesse.jpg"
+                    "needleValue": 15,
+                    "centralLabel":"15%"
+
                 },
                 "children": [
                     {
                         "label": "Adrien Boulogne, Pedro Direito",
-                        "styleClass": "department-cto"
+                        "styleClass": "employee"
                     }
                 ]
             },
@@ -85,13 +92,14 @@
                 "styleClass": "p-person",
                 "expanded": false,
                 "data": {
-                    "name": "Enlarge expertise to not be “just” delivery team",
-                    "avatar": "jesse.jpg"
+                    "needleValue": 10,
+                    "centralLabel":"10%"
+
                 },
                 "children": [
                     {
                         "label": "José Carvalho, Firas Chikhrouhou",
-                        "styleClass": "department-cto"
+                        "styleClass": "employee"
                     }
                 ]
             }
