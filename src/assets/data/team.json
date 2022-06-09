@@ -4,10 +4,10 @@
         "type": "person",
         "value": "P0",
         "styleClass": "p-person",
-        "expanded": true,
+        "expanded": false,
         "data": {
             "needleValue": 15,
-            "centralLabel":"15%"
+            "marker":"{ '15': { 'color': '#555', 'type': 'triangle', 'size': 8, 'label': 'Goal', 'font': '12px arial' }  }"
 
         },
         "children": [

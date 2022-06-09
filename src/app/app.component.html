@@ -1,19 +1,18 @@
-
-
 <div>
 
-  <div class="toolbar" role="banner" >
+  <div class="toolbar" role="banner">
     <img alt="Caceis Logo" src="assets/img/logo.png" />
     <div class="spacer"></div>
-  
+
   </div>
-  
+
   <div class="content" role="main">
-  
+
     <!-- Highlight Card -->
     <div class="card highlight-card card-small">
-  
-      <svg id="rocket" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
+
+      <svg id="rocket" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678"
+        viewBox="0 0 101.678 101.678">
         <title>Rocket Ship</title>
         <g id="Group_83" data-name="Group 83" transform="translate(-141 -696)">
           <circle id="Ellipse_8" data-name="Ellipse 8" cx="50.839" cy="50.839" r="50.839" transform="translate(141 696)"
@@ -28,7 +27,7 @@
           </g>
         </g>
       </svg>
-  
+
       <span>Delivery Excellence Team</span>
       <P></P>
       <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="500.119" height="1083.632"
@@ -38,83 +37,47 @@
           d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z"
           transform="translate(-147.025 -140.939)" fill="#f5f5f5" />
       </svg>
-  
+
     </div>
     <p-toast [style]="{marginTop: '80px'}" [baseZIndex]="5000"></p-toast>
     <div class="row justify-content-md-center">
       <div class="col-auto" style="margin-top: 30px;">
-        <p-card>
-          <h5 style="color:#B0091B ;">SOFTWARE DELIVERY EXCELLENCE</h5>
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="15" [centralLabel]="'15%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
       </div>
       <div style="margin-top:50px">
-        <p-organizationChart [value]="data" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]="false"
-          (onNodeSelect)="onNodeSelect($event)" styleClass="company">
-          <ng-template let-node pTemplate="person">
-            <div class="node-header p-corner-top">{{node.label}}</div>
-          </ng-template>
-          <ng-template let-node pTemplate="department">
-            {{node.label}}
-          </ng-template>
-        </p-organizationChart>
+        <div class="col-12">
+          <p-organizationChart [value]="data" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]="false"
+            (onNodeSelect)="onNodeSelect($event)" styleClass="company">
+            <ng-template let-node pTemplate="person">
+                <div class="node-header p-corner-top">{{node.label}}</div>
+
+                <div class="custom-card">
+                  <ngx-gauge [type]="'semi'" [thick]="20"[markers]="getMarkerValue(node.data.needleValue)"[value]="node.data.needleValue"  [append]="'%'" [thresholds]="thresholdConfig">
+                  </ngx-gauge>
+                </div>
+
+              
+              </ng-template>
+              <ng-template let-node pTemplate="department">
+                {{node.label}}
+              </ng-template>
+          </p-organizationChart>
+        </div>
+
       </div>
     </div>
-  
-  
+
+
   </div>
   <div class="row justify-content-md-center" *ngIf="dataByPillar&&dataConfigByPillar&&selectedPillar!=='P0'">
+    <div class="pillar-title">
+      <h2>{{selectedPillarName}}</h2>
+
+    </div>
     <div *ngFor="let widget of dataByPillar; let i = index" class="col-lg-6" style="margin-top:30px">
       <p-card header="{{widget.title}}">
         <p-chart type="line" [data]="widget.data" [options]="dataConfigByPillar[i]"></p-chart>
       </p-card>
     </div>
   </div>
-  <div *ngIf="selectedPillar=='P0'">
-    <div class="row justify-content-md-center">
-
-  
-      <div class="col-lg-2 gauge">
-        <p-card>
-          <h5>Software Craftmanship Mindset</h5>
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="15" [centralLabel]="'15%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
-      </div>
-  
-      <div class="col-lg-2 gauge">
-        <p-card>
-          <h5>Automated Test</h5>
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="10" [centralLabel]="'10%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
-      </div>
-
-      <div class="col-lg-2 gauge">
-        <p-card>
-          <h5>Devops & Non Prod Environments</h5>
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="5" [centralLabel]="'5%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
-      </div>
-      <div class="col-lg-2 gauge">
-        <p-card>
-          <h5>IT Delivery Process & Governance</h5>
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="15" [centralLabel]="'15%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
-      </div>
-      <div class="col-lg-auto gauge">
-        <p-card>
-          <h5>Faster Knowledge & Continuous Learning</h5>
-  
-          <rg-gauge-chart [canvasWidth]="canvasWidth" [needleValue]="10" [centralLabel]="'10%'" [options]="options">
-          </rg-gauge-chart>
-        </p-card>
-      </div>
-    </div>
-  
-  </div>
-<br>
+  <br>
 </div>

@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 8px 0;
+  margin: 4px 105px;
 }
 
 p {
@@ -297,7 +297,7 @@ svg#clouds {
 :host ::ng-deep .p-organizationchart {
   .p-organizationchart-table {
 
-    min-width: 300px;
+    width: 20%;
 }
   .p-person {
         padding: 0;
@@ -307,10 +307,18 @@ svg#clouds {
     .node-header, .node-content {
         padding: 1em .8rem;
     }
-
+     .p-organizationchart-node-content.p-highlight {
+      background: #021124;
+      color: #eceef4;
+  }
     .node-header {
-        background-color: #495ebb;
-        color: #ffffff;
+      height: 55px;
+      background-color: #495ebb;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      justify-content: center;
     }
 
     .node-content {
@@ -355,4 +363,16 @@ font-size: 16px;
   display: flex;
   align-items: center;
   width: 16%;
+}
+
+.custom-card{
+  border: 1px solid #dee2e6;
+  background: #ffffff;
+  color: #495057;
+  padding: 1.25rem;
+}
+.pillar-title{
+  padding-left: 40PX;
+  color: rgb(176, 9, 27);
+  margin-top: 40px;
 }

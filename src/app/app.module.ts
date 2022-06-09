@@ -11,7 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {ChartModule} from 'primeng/chart';
 import {CardModule} from 'primeng/card';
-import { GaugeChartModule } from 'angular-gauge-chart'
+import { NgxGaugeModule } from 'ngx-gauge';
 
 
 @NgModule({
@@ -29,7 +29,7 @@ import { GaugeChartModule } from 'angular-gauge-chart'
     ProgressBarModule,
     ChartModule,
     CardModule,
-    GaugeChartModule
+    NgxGaugeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

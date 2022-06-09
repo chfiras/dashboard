@@ -31,7 +31,7 @@
             ],
             "position": {
               "x": "end",
-              "y": "end"
+              "y": "start"
             },
             "xValue": 7.8,
             "yValue": 100
@@ -121,7 +121,7 @@
             ],
             "position": {
               "x": "end",
-              "y": "end"
+              "y": "start"
             },
             "xValue": 7.8,
             "yValue": 98
@@ -210,11 +210,11 @@
               "Target value :0%"
             ],
             "position": {
-              "x": "start",
+              "x": "end",
               "y": "end"
             },
-            "xValue": 8,
-            "yValue": 0
+            "xValue": 7.8,
+            "yValue": 0.2
           },
           "annotation1": {
             "type": "line",

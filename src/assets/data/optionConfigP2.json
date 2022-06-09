@@ -27,7 +27,7 @@
             "borderWidth": 1,
             "content": ["Target value: 0"],
             "position": {
-              "x": "start",
+              "x": "end",
               "y": "end"
             },
             "xValue": 7.8,
