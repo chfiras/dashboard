@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Applicative Incidents linked to changes",
+        "data": {
+            "labels": [
+                "01/04/2022",
+                "01/05/2022",
+                "01/06/2022",
+                "01/07/2022",
+                "01/08/2022",
+                "01/09/2022",
+                "01/10/2022",
+                "01/11/2022",
+                "01/12/2022",
+                ""
+            ],
+            "datasets": [
+                {
+                    "label": "Applicative Incidents linked to changes",
+                    "data": [
+                        6,
+                        2,
+                        11
+                    ],
+                    "fill": true,
+                    "tension": 0.4,
+                    "borderColor": "#B0091B"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Automated tests success rate",
+        "data": {
+            "labels": [
+                "01/04/2022",
+                "01/05/2022",
+                "01/06/2022",
+                "01/07/2022",
+                "01/08/2022",
+                "01/09/2022",
+                "01/10/2022",
+                "01/11/2022",
+                "01/12/2022",
+                ""
+            ],
+            "datasets": [
+                {
+                    "label": "Automated tests success rate",
+                    "data": [
+                        75,
+                        79,
+                        84
+                    ],
+                    "fill": true,
+                    "tension": 0.4,
+                    "borderColor": "#B0091B"
+                }
+            ]
+        }
+    }
+]

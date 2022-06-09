@@ -1,0 +1,109 @@
+[
+    {
+        "label": "SOFTWARE DELIVERY EXCELLENCE",
+        "type": "person",
+        "value": "P0",
+        "styleClass": "p-person",
+        "expanded": false,
+        "data": {
+            "needleValue": 15,
+            "marker":"{ '15': { 'color': '#555', 'type': 'triangle', 'size': 8, 'label': 'Goal', 'font': '12px arial' }  }"
+
+        },
+        "children": [
+            {
+                "label": "Software Craftmanship Mindset",
+                "value": "P1",
+                "type": "person",
+                "styleClass": "p-person",
+                "expanded": false,
+                "data": {
+                    "needleValue": 15,
+                    "centralLabel":"15%"
+                },
+                "children": [
+                    {
+                        "label": "Mohamed Beltif, Tiago Teixeira",
+                        "styleClass": "employee"
+                    }
+                ]
+            },
+            {
+                "label": "Automated Test",
+                "type": "person",
+                "value": "P2",
+                "styleClass": "p-person",
+                "data": {
+                    "needleValue": 10,
+                    "centralLabel":"10%"
+
+                },
+                "expanded" : false,
+                "children": [
+                    {
+                        "label": "Kevin Douglas, Kais Dhifallah, Suman Kumar",
+                        "styleClass": "employee"
+                    }
+                    
+                ]
+            },
+            {
+                "label": "Devops & Non Prod Environments",
+                "type": "person",
+                "value": "P3",
+                "styleClass": "p-person",
+                "expanded": false,
+                "data": {
+                    "needleValue": 5,
+                    "centralLabel":"5%"
+
+
+                },
+                "children": [
+                    {
+                        "label": "Vianney Boucaud, Daniel Chaffiol",
+                        "styleClass": "employee",
+                        "expanded": true
+                    }
+                ]
+            },
+            {
+                "label": "IT Delivery Process & Governance",
+                "type": "person",
+                "value": "P4",
+                "styleClass": "p-person",
+                "expanded": false,
+                "data": {
+                    "needleValue": 15,
+                    "centralLabel":"15%"
+
+                },
+                "children": [
+                    {
+                        "label": "Adrien Boulogne, Pedro Direito",
+                        "styleClass": "employee"
+                    }
+                ]
+            },
+            {
+                "label": "Faster Knowledge & Continuous Learning",
+                "type": "person",
+                "value": "P5",
+                "styleClass": "p-person",
+                "expanded": false,
+                "data": {
+                    "needleValue": 10,
+                    "centralLabel":"10%"
+
+                },
+                "children": [
+                    {
+                        "label": "José Carvalho, Firas Chikhrouhou",
+                        "styleClass": "employee"
+                    }
+                ]
+            }
+        ]
+    }
+    
+]
